@@ -1,0 +1,52 @@
+[
+  {
+    "directory": "/mnt/home/tarik/projekat/uWebSocketMarvelsoft/uWebSockets/build",
+    "command": "ccache c++ -IuWS@sha -I. -I.. -I../include -I/usr/pkg/include -Xclang -fcolor-diagnostics -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g -fPIC -pthread -DUWS_THREADSAFE  -MD -MQ 'uWS@sha/src_Extensions.cpp.o' -MF 'uWS@sha/src_Extensions.cpp.o.d' -o 'uWS@sha/src_Extensions.cpp.o' -c ../src/Extensions.cpp",
+    "file": "../src/Extensions.cpp"
+  },
+  {
+    "directory": "/mnt/home/tarik/projekat/uWebSocketMarvelsoft/uWebSockets/build",
+    "command": "ccache c++ -IuWS@sha -I. -I.. -I../include -I/usr/pkg/include -Xclang -fcolor-diagnostics -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g -fPIC -pthread -DUWS_THREADSAFE  -MD -MQ 'uWS@sha/src_Group.cpp.o' -MF 'uWS@sha/src_Group.cpp.o.d' -o 'uWS@sha/src_Group.cpp.o' -c ../src/Group.cpp",
+    "file": "../src/Group.cpp"
+  },
+  {
+    "directory": "/mnt/home/tarik/projekat/uWebSocketMarvelsoft/uWebSockets/build",
+    "command": "ccache c++ -IuWS@sha -I. -I.. -I../include -I/usr/pkg/include -Xclang -fcolor-diagnostics -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g -fPIC -pthread -DUWS_THREADSAFE  -MD -MQ 'uWS@sha/src_Networking.cpp.o' -MF 'uWS@sha/src_Networking.cpp.o.d' -o 'uWS@sha/src_Networking.cpp.o' -c ../src/Networking.cpp",
+    "file": "../src/Networking.cpp"
+  },
+  {
+    "directory": "/mnt/home/tarik/projekat/uWebSocketMarvelsoft/uWebSockets/build",
+    "command": "ccache c++ -IuWS@sha -I. -I.. -I../include -I/usr/pkg/include -Xclang -fcolor-diagnostics -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g -fPIC -pthread -DUWS_THREADSAFE  -MD -MQ 'uWS@sha/src_Hub.cpp.o' -MF 'uWS@sha/src_Hub.cpp.o.d' -o 'uWS@sha/src_Hub.cpp.o' -c ../src/Hub.cpp",
+    "file": "../src/Hub.cpp"
+  },
+  {
+    "directory": "/mnt/home/tarik/projekat/uWebSocketMarvelsoft/uWebSockets/build",
+    "command": "ccache c++ -IuWS@sha -I. -I.. -I../include -I/usr/pkg/include -Xclang -fcolor-diagnostics -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g -fPIC -pthread -DUWS_THREADSAFE  -MD -MQ 'uWS@sha/src_Node.cpp.o' -MF 'uWS@sha/src_Node.cpp.o.d' -o 'uWS@sha/src_Node.cpp.o' -c ../src/Node.cpp",
+    "file": "../src/Node.cpp"
+  },
+  {
+    "directory": "/mnt/home/tarik/projekat/uWebSocketMarvelsoft/uWebSockets/build",
+    "command": "ccache c++ -IuWS@sha -I. -I.. -I../include -I/usr/pkg/include -Xclang -fcolor-diagnostics -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g -fPIC -pthread -DUWS_THREADSAFE  -MD -MQ 'uWS@sha/src_WebSocket.cpp.o' -MF 'uWS@sha/src_WebSocket.cpp.o.d' -o 'uWS@sha/src_WebSocket.cpp.o' -c ../src/WebSocket.cpp",
+    "file": "../src/WebSocket.cpp"
+  },
+  {
+    "directory": "/mnt/home/tarik/projekat/uWebSocketMarvelsoft/uWebSockets/build",
+    "command": "ccache c++ -IuWS@sha -I. -I.. -I../include -I/usr/pkg/include -Xclang -fcolor-diagnostics -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g -fPIC -pthread -DUWS_THREADSAFE  -MD -MQ 'uWS@sha/src_HTTPSocket.cpp.o' -MF 'uWS@sha/src_HTTPSocket.cpp.o.d' -o 'uWS@sha/src_HTTPSocket.cpp.o' -c ../src/HTTPSocket.cpp",
+    "file": "../src/HTTPSocket.cpp"
+  },
+  {
+    "directory": "/mnt/home/tarik/projekat/uWebSocketMarvelsoft/uWebSockets/build",
+    "command": "ccache c++ -IuWS@sha -I. -I.. -I../include -I/usr/pkg/include -Xclang -fcolor-diagnostics -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g -fPIC -pthread -DUWS_THREADSAFE  -MD -MQ 'uWS@sha/src_Socket.cpp.o' -MF 'uWS@sha/src_Socket.cpp.o.d' -o 'uWS@sha/src_Socket.cpp.o' -c ../src/Socket.cpp",
+    "file": "../src/Socket.cpp"
+  },
+  {
+    "directory": "/mnt/home/tarik/projekat/uWebSocketMarvelsoft/uWebSockets/build",
+    "command": "ccache c++ -IuWS@sha -I. -I.. -I../include -I/usr/pkg/include -Xclang -fcolor-diagnostics -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g -fPIC -pthread -DUWS_THREADSAFE  -MD -MQ 'uWS@sha/src_Epoll.cpp.o' -MF 'uWS@sha/src_Epoll.cpp.o.d' -o 'uWS@sha/src_Epoll.cpp.o' -c ../src/Epoll.cpp",
+    "file": "../src/Epoll.cpp"
+  },
+  {
+    "directory": "/mnt/home/tarik/projekat/uWebSocketMarvelsoft/uWebSockets/build",
+    "command": "ccache c++ -IuWS@sha -I. -I.. -I../include -I/usr/pkg/include -Xclang -fcolor-diagnostics -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g -fPIC -pthread -DUWS_THREADSAFE  -MD -MQ 'uWS@sha/src_Room.cpp.o' -MF 'uWS@sha/src_Room.cpp.o.d' -o 'uWS@sha/src_Room.cpp.o' -c ../src/Room.cpp",
+    "file": "../src/Room.cpp"
+  }
+]
