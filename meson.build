@@ -23,6 +23,15 @@ uWS_deps =[
 
 uWS_lib = shared_library('uWS',dependencies: uWS_deps,cpp_args: comp_flags)
 
-uWS_dep = declare_dependency(include_directories: uWS_include, link_with: uWS_lib)
+uWS_dep = [
+  declare_dependency(
+    include_directories: uWS_include, 
+    link_with: uWS_lib
+    ),
+    openssl_dep,
+    thread_dep,
+    zlib_dep
+  ]
+
 
 
