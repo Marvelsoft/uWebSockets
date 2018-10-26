@@ -1,8 +1,7 @@
-Build started at 2018-10-26T12:11:15.776067
+Build started at 2018-10-26T12:52:23.774554
 Main binary: /usr/pkg/bin/python3.6
 Python system: Linux
 The Meson build system
-WARNING: PKG_CONFIG_PATH has changed between invocations from "/usr/local/lib64/pkgconfig:/usr/local/lib/pkgconfig:/opt1/lib/pkgconfig:" to "/usr/local/lib64/pkgconfig:/usr/local/lib/pkgconfig:/opt1/lib/pkgconfig:/usr/lib64/pkgconfig".
 Version: 0.48.0
 Source dir: /mnt/home/tarik/projekat/uWebSocketMarvelsoft/uWebSockets
 Build dir: /mnt/home/tarik/projekat/uWebSocketMarvelsoft/uWebSockets/build
@@ -14,19 +13,26 @@ Build machine cpu family: x86_64
 Build machine cpu: x86_64
 Dependency openssl found: YES (cached)
 Dependency threads found: YES (cached)
-Found pkg-config: /usr/pkg/bin/pkg-config (1.4.1)
-Determining dependency 'zlib' with pkg-config executable '/usr/pkg/bin/pkg-config'
-Called `/usr/pkg/bin/pkg-config --modversion zlib` -> 0
-1.2.7
-Called `/usr/pkg/bin/pkg-config --cflags zlib` -> 0
-
-Called `/usr/pkg/bin/pkg-config zlib --libs` -> 0
--L/usr/lib64 -lz
-Called `/usr/pkg/bin/pkg-config zlib --libs` -> 0
--L/usr/lib64 -lz
+Dependency zlib found: YES (cached)
+Build targets in project: 1
+WARNING: Trying to use none sanitizer on Clang with b_lundef.
+This will probably not work.
+Try setting b_lundef to false instead.
+Found ninja-1.8.2 at /usr/pkg/bin/ninja
 Running compile:
-Working directory:  /tmp/tmpqhnm31dz
-Command line:  ccache c++ -I/usr/pkg/include /tmp/tmpqhnm31dz/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpqhnm31dz/output.obj -O0 -fpermissive --print-search-dirs 
+Working directory:  /tmp/tmp1di2agc9
+Command line:  ccache c++ /tmp/tmp1di2agc9/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp1di2agc9/output.obj -std=c++14 
+
+Code:
+ int i = static_cast<int>(0);
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler accepts -std=c++14: YES
+Running compile:
+Working directory:  /tmp/tmpdc4jpxl0
+Command line:  ccache c++ -I/usr/pkg/include /tmp/tmpdc4jpxl0/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpdc4jpxl0/output.obj -O0 -fpermissive --print-search-dirs 
 
 Code:
  
@@ -36,20 +42,3 @@ libraries: =/usr/pkg/gcc7/lib/clang/6.0.0:/usr/pkg/gcc7/bin/../lib/gcc/x86_64-re
 
 Compiler stderr:
  
-Dependency zlib found: YES 1.2.7
-Build targets in project: 1
-WARNING: Trying to use none sanitizer on Clang with b_lundef.
-This will probably not work.
-Try setting b_lundef to false instead.
-Found ninja-1.8.2 at /usr/pkg/bin/ninja
-Running compile:
-Working directory:  /tmp/tmpdr2ljllz
-Command line:  ccache c++ /tmp/tmpdr2ljllz/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpdr2ljllz/output.obj -std=c++14 
-
-Code:
- int i = static_cast<int>(0);
-Compiler stdout:
- 
-Compiler stderr:
- 
-Compiler accepts -std=c++14: YES

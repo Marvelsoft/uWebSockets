@@ -3,8 +3,8 @@ project('uWebSocket', 'cpp',version: '0.14.8', default_options: ['cpp_std=c++14'
 comp_flags = ['-DUWS_THREADSAFE']
 
 
+include = include_directories('include/uWS')
 uWS_include = include_directories('include')
-
 openssl_dep = dependency('openssl')
 thread_dep = dependency('threads')
 zlib_dep = dependency('zlib')
@@ -14,7 +14,7 @@ subdir('src')
 uWS_deps =[ 
   declare_dependency(
     sources: uWS_src, 
-    include_directories: uWS_include
+    include_directories: include
     ), 
     openssl_dep,
     thread_dep,

@@ -66,43 +66,43 @@ build PHONY: phony
 
 build uWS@sha/src_Extensions.cpp.o: cpp_COMPILER ../src/Extensions.cpp
  DEPFILE = uWS@sha/src_Extensions.cpp.o.d
- ARGS = -IuWS@sha -I. -I.. -I../include -I/usr/pkg/include -Xclang -fcolor-diagnostics -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g -fPIC -pthread -DUWS_THREADSAFE
+ ARGS = -IuWS@sha -I. -I.. -I../include/uWS -I/usr/pkg/include -Xclang -fcolor-diagnostics -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g -fPIC -pthread -DUWS_THREADSAFE
 
 build uWS@sha/src_Group.cpp.o: cpp_COMPILER ../src/Group.cpp
  DEPFILE = uWS@sha/src_Group.cpp.o.d
- ARGS = -IuWS@sha -I. -I.. -I../include -I/usr/pkg/include -Xclang -fcolor-diagnostics -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g -fPIC -pthread -DUWS_THREADSAFE
+ ARGS = -IuWS@sha -I. -I.. -I../include/uWS -I/usr/pkg/include -Xclang -fcolor-diagnostics -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g -fPIC -pthread -DUWS_THREADSAFE
 
 build uWS@sha/src_Networking.cpp.o: cpp_COMPILER ../src/Networking.cpp
  DEPFILE = uWS@sha/src_Networking.cpp.o.d
- ARGS = -IuWS@sha -I. -I.. -I../include -I/usr/pkg/include -Xclang -fcolor-diagnostics -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g -fPIC -pthread -DUWS_THREADSAFE
+ ARGS = -IuWS@sha -I. -I.. -I../include/uWS -I/usr/pkg/include -Xclang -fcolor-diagnostics -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g -fPIC -pthread -DUWS_THREADSAFE
 
 build uWS@sha/src_Hub.cpp.o: cpp_COMPILER ../src/Hub.cpp
  DEPFILE = uWS@sha/src_Hub.cpp.o.d
- ARGS = -IuWS@sha -I. -I.. -I../include -I/usr/pkg/include -Xclang -fcolor-diagnostics -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g -fPIC -pthread -DUWS_THREADSAFE
+ ARGS = -IuWS@sha -I. -I.. -I../include/uWS -I/usr/pkg/include -Xclang -fcolor-diagnostics -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g -fPIC -pthread -DUWS_THREADSAFE
 
 build uWS@sha/src_Node.cpp.o: cpp_COMPILER ../src/Node.cpp
  DEPFILE = uWS@sha/src_Node.cpp.o.d
- ARGS = -IuWS@sha -I. -I.. -I../include -I/usr/pkg/include -Xclang -fcolor-diagnostics -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g -fPIC -pthread -DUWS_THREADSAFE
+ ARGS = -IuWS@sha -I. -I.. -I../include/uWS -I/usr/pkg/include -Xclang -fcolor-diagnostics -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g -fPIC -pthread -DUWS_THREADSAFE
 
 build uWS@sha/src_WebSocket.cpp.o: cpp_COMPILER ../src/WebSocket.cpp
  DEPFILE = uWS@sha/src_WebSocket.cpp.o.d
- ARGS = -IuWS@sha -I. -I.. -I../include -I/usr/pkg/include -Xclang -fcolor-diagnostics -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g -fPIC -pthread -DUWS_THREADSAFE
+ ARGS = -IuWS@sha -I. -I.. -I../include/uWS -I/usr/pkg/include -Xclang -fcolor-diagnostics -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g -fPIC -pthread -DUWS_THREADSAFE
 
 build uWS@sha/src_HTTPSocket.cpp.o: cpp_COMPILER ../src/HTTPSocket.cpp
  DEPFILE = uWS@sha/src_HTTPSocket.cpp.o.d
- ARGS = -IuWS@sha -I. -I.. -I../include -I/usr/pkg/include -Xclang -fcolor-diagnostics -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g -fPIC -pthread -DUWS_THREADSAFE
+ ARGS = -IuWS@sha -I. -I.. -I../include/uWS -I/usr/pkg/include -Xclang -fcolor-diagnostics -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g -fPIC -pthread -DUWS_THREADSAFE
 
 build uWS@sha/src_Socket.cpp.o: cpp_COMPILER ../src/Socket.cpp
  DEPFILE = uWS@sha/src_Socket.cpp.o.d
- ARGS = -IuWS@sha -I. -I.. -I../include -I/usr/pkg/include -Xclang -fcolor-diagnostics -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g -fPIC -pthread -DUWS_THREADSAFE
+ ARGS = -IuWS@sha -I. -I.. -I../include/uWS -I/usr/pkg/include -Xclang -fcolor-diagnostics -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g -fPIC -pthread -DUWS_THREADSAFE
 
 build uWS@sha/src_Epoll.cpp.o: cpp_COMPILER ../src/Epoll.cpp
  DEPFILE = uWS@sha/src_Epoll.cpp.o.d
- ARGS = -IuWS@sha -I. -I.. -I../include -I/usr/pkg/include -Xclang -fcolor-diagnostics -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g -fPIC -pthread -DUWS_THREADSAFE
+ ARGS = -IuWS@sha -I. -I.. -I../include/uWS -I/usr/pkg/include -Xclang -fcolor-diagnostics -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g -fPIC -pthread -DUWS_THREADSAFE
 
 build uWS@sha/src_Room.cpp.o: cpp_COMPILER ../src/Room.cpp
  DEPFILE = uWS@sha/src_Room.cpp.o.d
- ARGS = -IuWS@sha -I. -I.. -I../include -I/usr/pkg/include -Xclang -fcolor-diagnostics -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g -fPIC -pthread -DUWS_THREADSAFE
+ ARGS = -IuWS@sha -I. -I.. -I../include/uWS -I/usr/pkg/include -Xclang -fcolor-diagnostics -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++14 -g -fPIC -pthread -DUWS_THREADSAFE
 
 build uWS@sha/libuWS.so.symbols: SHSYM libuWS.so
 
