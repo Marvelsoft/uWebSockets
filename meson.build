@@ -11,7 +11,7 @@ zlib_dep = dependency('zlib')
 
 subdir('src')
 
-uWS_dep =[ 
+uWS_deps =[ 
   declare_dependency(
     sources: uWS_src, 
     include_directories: uWS_include
@@ -21,7 +21,8 @@ uWS_dep =[
     zlib_dep
 ] 
 
-uWS_lib = shared_library('uWS',dependencies: uWS_dep,cpp_args: comp_flags)
+uWS_lib = shared_library('uWS',dependencies: uWS_deps,cpp_args: comp_flags)
 
+uWS_dep = declare_dependency(include_directories: uWS_include, link_with: uWS_lib)
 
 
